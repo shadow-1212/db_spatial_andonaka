@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Control point.kml</name>
+	<Style id="sh_polygon">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_polygon">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_polygon</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_polygon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_polygon">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Control point</name>
+		<open>1</open>
+		<Placemark>
+			<name>Center</name>
+			<LookAt>
+				<longitude>46.4992444616511</longitude>
+				<latitude>-21.90837826288013</latitude>
+				<altitude>0</altitude>
+				<heading>-10.90847658043662</heading>
+				<tilt>22.22882391815545</tilt>
+				<range>428.502229204525</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_polygon</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>46.49924446165109,-21.90837826288013,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Top left</name>
+			<LookAt>
+				<longitude>46.49829442368036</longitude>
+				<latitude>-21.90769606258217</latitude>
+				<altitude>0</altitude>
+				<heading>-10.90812265361796</heading>
+				<tilt>22.15451274168423</tilt>
+				<range>391.8253267348552</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_polygon</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>46.49829442368036,-21.90769606258217,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bottom left</name>
+			<LookAt>
+				<longitude>46.49894362909014</longitude>
+				<latitude>-21.90976532134508</latitude>
+				<altitude>0</altitude>
+				<heading>-10.90836431049052</heading>
+				<tilt>22.22881958444795</tilt>
+				<range>427.2274518296275</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_polygon</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>46.49894362909013,-21.90976532134508,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bottom right</name>
+			<LookAt>
+				<longitude>46.49973638919133</longitude>
+				<latitude>-21.90930980767602</latitude>
+				<altitude>0</altitude>
+				<heading>-10.90866014129476</heading>
+				<tilt>22.22881958673636</tilt>
+				<range>427.2275671646955</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_polygon</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>46.49973638919133,-21.90930980767602,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Top right</name>
+			<LookAt>
+				<longitude>46.49987135424866</longitude>
+				<latitude>-21.90685272338399</latitude>
+				<altitude>0</altitude>
+				<heading>-10.90871047889428</heading>
+				<tilt>22.2288306101842</tilt>
+				<range>430.4720141852104</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_polygon</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>46.49987135424866,-21.90685272338398,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
