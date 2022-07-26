@@ -2,39 +2,63 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Control point.kml</name>
-	<Style id="sh_polygon">
-		<IconStyle>
-			<color>ff00ffaa</color>
-			<scale>0.827273</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_polygon">
+	<StyleMap id="msn_open-diamond">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_polygon</styleUrl>
+			<styleUrl>#sn_open-diamond0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_polygon</styleUrl>
+			<styleUrl>#sh_open-diamond</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_polygon">
+	<Style id="sn_open-diamond">
 		<IconStyle>
-			<color>ff00ffaa</color>
-			<scale>0.7</scale>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
+	</Style>
+	<Style id="sh_open-diamond">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_open-diamond0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_open-diamond0">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_open-diamond0">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
@@ -44,86 +68,86 @@
 		<Placemark>
 			<name>Center</name>
 			<LookAt>
-				<longitude>46.4992444616511</longitude>
-				<latitude>-21.90837826288013</latitude>
+				<longitude>46.49924174528376</longitude>
+				<latitude>-21.90839897314682</latitude>
 				<altitude>0</altitude>
-				<heading>-10.90847658043662</heading>
-				<tilt>22.22882391815545</tilt>
-				<range>428.502229204525</range>
+				<heading>-10.90847669806731</heading>
+				<tilt>22.77720783583825</tilt>
+				<range>523.9253826728935</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_polygon</styleUrl>
+			<styleUrl>#msn_open-diamond0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>46.49924446165109,-21.90837826288013,0</coordinates>
+				<coordinates>46.49924174528376,-21.90839897314682,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Top left</name>
 			<LookAt>
-				<longitude>46.49829442368036</longitude>
-				<latitude>-21.90769606258217</latitude>
+				<longitude>46.49932946610101</longitude>
+				<latitude>-21.90843011408767</latitude>
 				<altitude>0</altitude>
-				<heading>-10.90812265361796</heading>
-				<tilt>22.15451274168423</tilt>
-				<range>391.8253267348552</range>
+				<heading>-0.0521287581574706</heading>
+				<tilt>22.05229858942844</tilt>
+				<range>477.6642190507684</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_polygon</styleUrl>
+			<styleUrl>#msn_open-diamond</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>46.49829442368036,-21.90769606258217,0</coordinates>
+				<coordinates>46.49743917390424,-21.90710177032014,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Bottom left</name>
 			<LookAt>
-				<longitude>46.49894362909014</longitude>
-				<latitude>-21.90976532134508</latitude>
+				<longitude>46.49932946610101</longitude>
+				<latitude>-21.90843011408767</latitude>
 				<altitude>0</altitude>
-				<heading>-10.90836431049052</heading>
-				<tilt>22.22881958444795</tilt>
-				<range>427.2274518296275</range>
+				<heading>-0.0521287581574706</heading>
+				<tilt>22.05229858942844</tilt>
+				<range>477.6642190507684</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_polygon</styleUrl>
+			<styleUrl>#msn_open-diamond</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>46.49894362909013,-21.90976532134508,0</coordinates>
+				<coordinates>46.49779328654873,-21.9095912053189,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Bottom right</name>
 			<LookAt>
-				<longitude>46.49973638919133</longitude>
-				<latitude>-21.90930980767602</latitude>
+				<longitude>46.49932946610101</longitude>
+				<latitude>-21.90843011408767</latitude>
 				<altitude>0</altitude>
-				<heading>-10.90866014129476</heading>
-				<tilt>22.22881958673636</tilt>
-				<range>427.2275671646955</range>
+				<heading>-0.0521287581574706</heading>
+				<tilt>22.05229858942844</tilt>
+				<range>477.6642190507684</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_polygon</styleUrl>
+			<styleUrl>#msn_open-diamond</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>46.49973638919133,-21.90930980767602,0</coordinates>
+				<coordinates>46.5011956612302,-21.90960676463136,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Top right</name>
 			<LookAt>
-				<longitude>46.49987135424866</longitude>
-				<latitude>-21.90685272338399</latitude>
+				<longitude>46.49918657091622</longitude>
+				<latitude>-21.90864248616187</latitude>
 				<altitude>0</altitude>
-				<heading>-10.90871047889428</heading>
-				<tilt>22.2288306101842</tilt>
-				<range>430.4720141852104</range>
+				<heading>-0.05207549745899614</heading>
+				<tilt>22.05273640036228</tilt>
+				<range>607.5374595153618</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_polygon</styleUrl>
+			<styleUrl>#msn_open-diamond</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>46.49987135424866,-21.90685272338398,0</coordinates>
+				<coordinates>46.50136699794673,-21.90693279449939,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
